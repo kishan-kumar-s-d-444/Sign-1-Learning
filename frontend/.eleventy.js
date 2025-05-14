@@ -1,5 +1,6 @@
 module.exports = function (eleventyConfig) {
   // eleventyConfig.addPassthroughCopy("./styles.css");
+  //KISHAN KUMAR S D
   eleventyConfig.addPassthroughCopy({
     "node_modules/flowbite/dist/flowbite.js": "js/flowbite.js"
   });
