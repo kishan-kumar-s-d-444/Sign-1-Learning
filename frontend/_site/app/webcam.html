@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real-time Sign Detection - SignSpeak</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
+    <link rel="stylesheet" href="static/css/webcam.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>SignSpeak</h1>
+            <div class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <nav>
+                <a href="/">Home</a>
+                <a href="text_to_sign.html">Text to Sign</a>
+                <a href="image_to_sign.html">Image to Sign</a>
+                <a href="webcam.html">Webcam</a>
+                <a href="alphabet.html">Learn Alphabet</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="content-section">
+            <h2>Real-time Sign Language Detection</h2>
+            <p>
+                Practice sign language with real-time hand tracking using a camera. Show your hand signs 
+                to the camera and receive instant feedback on your gestures.
+            </p>
+            
+            <div class="video-container">
+                <video id="webcam" autoplay playsinline></video>
+                <canvas class="output_canvas" id="output_canvas" width="640" height="480"></canvas>
+            </div>
+            <p id="gesture_output" class="output"></p>
+            
+            <div class="controls">
+                <button id="webcamButton" class="control-btn">
+                    <span class="mdc-button__ripple"></span>
+                    <span class="mdc-button__label">Enable Camera</span>
+                </button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Developed with  as part of the SDG-4 Project | <a href="https://github.com/kishan-kumar-s-d-444/Sign-4-Overall">Learn More</a></p>
+    </footer>
+    <script type="module" src="static\js\webcam.js"></script>
+   
+</body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text to Sign - SignSpeak</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
+    <link rel="stylesheet" href="static/css/text_to_sign.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>SignSpeak</h1>
+            <div class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <nav>
+                <a href="/">Home</a>
+                <a href="text_to_sign.html">Text to Sign</a>
+                <a href="image_to_sign.html">Image to Sign</a>
+                <a href="webcam.html">Webcam</a>
+                <a href="alphabet.html">Learn Alphabet</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="content-section">
+            <h2>Text to Sign Translation</h2>
+            <p>Enter your text below and watch it transform into sign language. Our system will convert each letter into its corresponding sign.</p>
+            <div class="warning">Sample For Tesing.</div>
+            
+            <form id="text-to-sign-form">
+                <div class="input-container">
+                    <textarea id="input-text" placeholder="Type your text here to see it in sign language..." required maxlength="70"></textarea>
+                    <div class="char-indicator">
+                        <span id="char-count">0</span>/70 characters (letters only)
+                    </div>
+                </div>
+                <div class="form-actions">
+                    <button type="button" onclick="translateText()">Translate to Sign Language</button>
+                    <select id="display-mode" class="display-mode-selector">
+                        <option value="image">Image Mode</option>
+                        <option value="avatar">Avatar Mode</option>
+                    </select>
+                </div>
+            </form>
+        </section>
+        <div id="translated-images"></div>
+        <div id="translated-videos" style="display: none;"></div>
+    </main>
+    <footer>
+        <p>Developed with  as part of the SDG-4 Project | <a href="https://github.com/kishan-kumar-s-d-444/Sign-4-Overall">Learn More</a></p>
+    </footer>
+    <script src="static/js/text_to_sign.js"></script>
+</body>
+</html>
