@@ -45,6 +45,17 @@ header {
   margin: 0;
 }
 
+.logo-title {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.logo {
+  height: 50px; /* Adjust as needed */
+  width: auto;
+  border-radius: 50%; /* Makes it circular if desired */
+}
 .menu-toggle {
   display: none;
   flex-direction: column;
