@@ -1,4 +1,3 @@
-
         :root {
             --primary-color: #2563eb;
             --secondary-color: #3b82f6;
@@ -126,6 +125,14 @@
             margin: 1rem auto;
         }
 
+        .webcam-content-wrapper {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 2rem;
+            margin: 2rem 0;
+            align-items: start;
+        }
+
         .video-container {
             position: relative;
             width: 100%;
@@ -134,6 +141,8 @@
             border-radius: var(--border-radius);
             overflow: hidden;
             aspect-ratio: 4/3;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            background-color: #f1f5f9;
         }
 
         #webcam {
@@ -190,17 +199,100 @@
             transform: none;
         }
 
+        .sign-textbox-container {
+            background: white;
+            padding: 1.5rem;
+            border-radius: var(--border-radius);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .sign-textbox-container h3 {
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+            font-size: 1.25rem;
+        }
+
+        .text-controls {
+            display: flex;
+            gap: 0.5rem;
+            margin-bottom: 1rem;
+            justify-content: center;
+        }
+
+        .control-btn.small {
+            padding: 0.5rem 1rem;
+            font-size: 0.9rem;
+            background-color: var(--secondary-color);
+        }
+
+        .control-btn.small:hover {
+            background-color: var(--primary-color);
+        }
+
+        .text-instructions {
+            margin-top: 1rem;
+            padding: 1rem;
+            background-color: #f1f5f9;
+            border-radius: var(--border-radius);
+            font-size: 0.9rem;
+        }
+
+        .text-instructions p {
+            color: var(--text-color);
+            margin-bottom: 0.5rem;
+            font-weight: 500;
+        }
+
+        .text-instructions ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        .text-instructions li {
+            color: #64748b;
+            margin-bottom: 0.25rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .text-instructions li:before {
+            content: "•";
+            color: var(--primary-color);
+        }
+
+        .sign-textbox {
+            width: 100%;
+            height: 200px;
+            padding: 1rem;
+            border: 2px solid #e2e8f0;
+            border-radius: var(--border-radius);
+            font-family: 'Inter', sans-serif;
+            font-size: 1.1rem;
+            line-height: 1.5;
+            resize: none;
+            background-color: #f8fafc;
+            transition: var(--transition);
+            margin-bottom: 1rem;
+        }
+
+        .sign-textbox:focus {
+            outline: none;
+            border-color: var(--primary-color);
+            box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+        }
+
         .output {
-            background-color: #000000;
-            color: #ffffff;
-            padding: 1.2rem;
+            background-color: #f8fafc;
+            color: var(--text-color);
+            padding: 1rem;
             border-radius: var(--border-radius);
             margin-top: 1rem;
-            font-weight: 600;
-            font-size: 1.1rem;
+            font-weight: 500;
+            font-size: 1rem;
             text-align: center;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            border: 2px solid #ffffff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+            border: 1px solid #e2e8f0;
             white-space: pre-line;
             max-width: 600px;
             margin: 1rem auto;
@@ -280,6 +372,26 @@
             #webcam, .output_canvas {
                 width: 100%;
                 height: auto;
+            }
+
+            .text-controls {
+                flex-wrap: wrap;
+            }
+            
+            .control-btn.small {
+                flex: 1;
+                min-width: 100px;
+            }
+        }
+
+        @media (max-width: 1024px) {
+            .webcam-content-wrapper {
+                grid-template-columns: 1fr;
+            }
+            
+            .sign-textbox-container {
+                max-width: 640px;
+                margin: 0 auto;
             }
         }
     

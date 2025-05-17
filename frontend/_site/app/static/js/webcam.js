@@ -8,6 +8,11 @@ let webcamRunning = false;
 const videoHeight = "480px";
 const videoWidth = "640px";
 
+let detectedSigns = [];
+let lastSign = '';
+let lastSignTime = 0;
+const SIGN_DELAY = 1000; // Minimum time between signs in milliseconds
+
 // Initialize the GestureRecognizer
 const createGestureRecognizer = async () => {
     const vision = await FilesetResolver.forVisionTasks("https://cdn.jsdelivr.net/npm/@mediapipe/tasks-vision@0.10.3/wasm");
@@ -25,7 +30,11 @@ const video = document.getElementById("webcam");
 const canvasElement = document.getElementById("output_canvas");
 const canvasCtx = canvasElement.getContext("2d");
 const gestureOutput = document.getElementById("gesture_output");
+const signTextbox = document.getElementById("sign_textbox");
 const enableWebcamButton = document.getElementById("webcamButton");
+const addSpaceButton = document.getElementById("addSpace");
+const backspaceButton = document.getElementById("backspace");
+const clearTextButton = document.getElementById("clearText");
 
 function hasGetUserMedia() {
     return !!(navigator.mediaDevices && navigator.mediaDevices.getUserMedia);
@@ -75,6 +84,26 @@ async function enableCam() {
 let lastVideoTime = -1;
 let results = undefined;
 
+// Add text control event listeners
+addSpaceButton.addEventListener('click', () => {
+    const currentText = signTextbox.value;
+    signTextbox.value = currentText + ' ';
+});
+
+backspaceButton.addEventListener('click', () => {
+    const currentText = signTextbox.value;
+    if (currentText) {
+        signTextbox.value = currentText.slice(0, -1);
+    }
+});
+
+clearTextButton.addEventListener('click', () => {
+    signTextbox.value = '';
+    detectedSigns = [];
+    lastSign = '';
+    lastSignTime = 0;
+});
+
 async function predictWebcam() {
     // Remove fixed dimensions and make it responsive
     canvasElement.style.width = '100%';
@@ -115,11 +144,30 @@ async function predictWebcam() {
     canvasCtx.restore();
 
     if (results.gestures.length > 0) {
-        gestureOutput.style.display = "block";
         const categoryName = results.gestures[0][0].categoryName;
         const categoryScore = parseFloat(results.gestures[0][0].score * 100).toFixed(2);
-        // Remove handedness display
-        gestureOutput.innerText = `Detected Sign: ${categoryName}\nConfidence: ${categoryScore}%`;
+        
+        // Only update if confidence is high enough and enough time has passed
+        if (categoryScore > 80 && (nowInMs - lastSignTime > SIGN_DELAY || categoryName !== lastSign)) {
+            lastSign = categoryName;
+            lastSignTime = nowInMs;
+            
+            // Add the new sign to the array
+            detectedSigns.push(categoryName);
+            
+            // Keep only the last 10 signs
+            if (detectedSigns.length > 10) {
+                detectedSigns.shift();
+            }
+            
+            // Update the text box with the new sign without automatic spacing
+            const currentText = signTextbox.value;
+            signTextbox.value = currentText + categoryName;
+            
+            // Show the current detection
+            gestureOutput.style.display = "block";
+            gestureOutput.innerText = `Detected Sign: ${categoryName}\nConfidence: ${categoryScore}%`;
+        }
     } else {
         gestureOutput.style.display = "none";
     }

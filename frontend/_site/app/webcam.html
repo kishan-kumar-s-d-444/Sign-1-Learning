@@ -33,9 +33,28 @@
                 to the camera and receive instant feedback on your gestures.
             </p>
             
-            <div class="video-container">
-                <video id="webcam" autoplay playsinline></video>
-                <canvas class="output_canvas" id="output_canvas" width="640" height="480"></canvas>
+            <div class="webcam-content-wrapper">
+                <div class="video-container">
+                    <video id="webcam" autoplay playsinline></video>
+                    <canvas class="output_canvas" id="output_canvas" width="640" height="480"></canvas>
+                </div>
+                <div class="sign-textbox-container">
+                    <h3>Detected Signs</h3>
+                    <div class="text-controls">
+                        <button id="addSpace" class="control-btn small">Add Space</button>
+                        <button id="backspace" class="control-btn small">Delete</button>
+                        <button id="clearText" class="control-btn small">Clear</button>
+                    </div>
+                    <textarea id="sign_textbox" class="sign-textbox" readonly></textarea>
+                    <!-- <div class="text-instructions">
+                        <p>Use the buttons above to:</p>
+                        <ul>
+                            <li>Add Space: Insert space between words</li>
+                            <li>Delete: Remove last character</li>
+                            <li>Clear: Start over</li>
+                        </ul>
+                    </div> -->
+                </div>
             </div>
             <p id="gesture_output" class="output"></p>
             
