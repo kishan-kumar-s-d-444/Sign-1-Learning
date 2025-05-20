@@ -1,0 +1,275 @@
+[33mcommit 04c7072b6817de808ae3e8f67d412aec0de78c4c[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: KISHAN KUMAR S D <kishankumarsd444@gmail.com>
+Date:   Sat May 17 21:49:24 2025 +0530
+
+    KK1
+
+[33mcommit cf61092aac354d564e0687fe660293cb7a8b88a5[m
+Author: KISHAN KUMAR S D <kishankumarsd444@gmail.com>
+Date:   Sat May 17 18:40:04 2025 +0530
+
+    K6
+
+[33mcommit 394ec50a51cdb335d303d36db141993cce0fab6c[m
+Author: KISHAN KUMAR S D <kishankumarsd444@gmail.com>
+Date:   Sat May 17 14:35:28 2025 +0530
+
+    k5
+
+[33mcommit 90a7f8ad99363d580b2441225a189e7f212caf18[m
+Author: KISHAN KUMAR S D <kishankumarsd444@gmail.com>
+Date:   Sat May 17 09:17:40 2025 +0530
+
+    k4
+
+[33mcommit c2aad2c7a84363e81f56ab035513abad6f62827e[m
+Author: KISHAN KUMAR S D <kishankumarsd444@gmail.com>
+Date:   Thu May 15 22:24:44 2025 +0530
+
+    K4
+
+[33mcommit 5a7332323723953c6f28b83211baa94c90904056[m
+Author: KISHAN KUMAR S D <kishankumarsd444@gmail.com>
+Date:   Wed May 14 21:50:17 2025 +0530
+
+    K3
+
+[33mcommit d2159b2db7bbcfcc78eaafea08b91b8e712f5f66[m
+Author: KISHAN KUMAR S D <kishankumarsd444@gmail.com>
+Date:   Wed May 14 21:44:59 2025 +0530
+
+    K2
+
+[33mcommit fd73389ebc3575df80379dd58c683fb19fc6c49a[m
+Author: KISHAN KUMAR S D <kishankumarsd444@gmail.com>
+Date:   Wed May 14 21:42:16 2025 +0530
+
+    K2
+
+[33mcommit d07fc66f190d2655cdcbacc05097b2e5da24139f[m
+Author: KISHAN KUMAR S D <kishankumarsd444@gmail.com>
+Date:   Mon May 12 21:43:05 2025 +0530
+
+    K1
+
+[33mcommit 39d1428429c0532fffbcbbbc61e74f5da560ec9a[m
+Author: KISHAN KUMAR S D <kishankumarsd444@gmail.com>
+Date:   Mon May 12 21:10:08 2025 +0530
+
+    first commit
+
+[33mcommit 106e9a7339c9e0bd334e2eb677c6a5a4c838bfba[m
+Author: Archit Gaware <107927170+BABATHESLAYER@users.noreply.github.com>
+Date:   Mon Mar 3 18:38:51 2025 +0530
+
+    Update README.md
+
+[33mcommit f32081094666feb516f504c94e151a09fe4665c3[m
+Merge: ace847e 35beb20
+Author: Narottam <coutkunal@gmail.com>
+Date:   Mon Apr 10 00:10:54 2023 +0530
+
+    Merge branch 'master' of https://github.com/Narottam04/SignLanguage
+
+[33mcommit ace847e8cd72c37dcbf1327a8687d3dea99fbf89[m
+Author: Narottam <coutkunal@gmail.com>
+Date:   Mon Apr 10 00:09:05 2023 +0530
+
+    domain is now shifted to gestureacademy
+
+[33mcommit 35beb20715bc70c9e6c4d1b532b5b1a26fd3fa57[m
+Author: Narottam Sahu <74066540+Narottam04@users.noreply.github.com>
+Date:   Sun Apr 9 23:44:37 2023 +0530
+
+    Update README.md
+
+[33mcommit 9846e4c2bac6f886fef8a66e49b202934bd027c8[m
+Merge: 512e17b 8a1bfbf
+Author: Narottam <coutkunal@gmail.com>
+Date:   Sun Apr 9 17:49:32 2023 +0530
+
+    Merge branch 'master' of https://github.com/Narottam04/SignLanguage
+
+[33mcommit 512e17b5634c20ea7b84c71dd0f64970c619f446[m
+Author: Narottam <coutkunal@gmail.com>
+Date:   Sun Apr 9 17:49:04 2023 +0530
+
+    some changes
+
+[33mcommit 8a1bfbf1b18f511dfe57226836ff22f2be3603e7[m
+Author: Aman Shrivastava <amann.shrivastava@gmail.com>
+Date:   Sun Apr 9 17:48:35 2023 +0530
+
+    Added image and script for the logo size 512x512
+
+[33mcommit 16e33d18474d8a07b7bc988f23e6b9ec54cc6d0d[m
+Author: Aman Shrivastava <amann.shrivastava@gmail.com>
+Date:   Sun Apr 9 17:29:40 2023 +0530
+
+    Script for showing icons on browser
+
+[33mcommit bddfb162eb47dc47f1fddaf959455414096fc35a[m
+Author: Narottam <coutkunal@gmail.com>
+Date:   Sun Apr 9 17:06:53 2023 +0530
+
+    changed image naming convention
+
+[33mcommit 6da19182f6d47ce817ea8fed69b25f77387bd7e4[m
+Author: Narottam <coutkunal@gmail.com>
+Date:   Sun Apr 9 17:04:06 2023 +0530
+
+    changes to manifest.json file
+
+[33mcommit 43151b3a1a27144b87d73d863cef5cf42a1bb265[m
+Author: Aman Shrivastava <amann.shrivastava@gmail.com>
+Date:   Sun Apr 9 16:55:51 2023 +0530
+
+    Added logo of different pixels for the mobile app
+
+[33mcommit b86f6b848c74c95eeb166fdb0cec47e22639b45f[m
+Author: Narottam <coutkunal@gmail.com>
+Date:   Sun Apr 9 16:23:03 2023 +0530
+
+    Initial PWA Implementation
+
+[33mcommit c904f6f7a960d213069f78d373c9e65fc3fcec4a[m
+Author: Narottam <coutkunal@gmail.com>
+Date:   Fri Mar 31 23:59:15 2023 +0530
+
+    forgot to add photos in games
+
+[33mcommit eaab9fd233d787a69bf8dd4ac4783924331f4400[m
+Author: Narottam <coutkunal@gmail.com>
+Date:   Fri Mar 31 23:47:48 2023 +0530
+
+    1 not detecting in ballon game fix
+
+[33mcommit 2239cbe1867705d565880293087db054fcd0baf8[m
+Author: Narottam <coutkunal@gmail.com>
+Date:   Fri Mar 31 23:25:04 2023 +0530
+
+    Created games from a-z, 1-9 with ui in frontend
+
+[33mcommit 63018f3fd871531ec77318946ac0a075102abee5[m
+Merge: 3d5c7bc a89a9bd
+Author: Narottam <coutkunal@gmail.com>
+Date:   Fri Mar 31 21:21:47 2023 +0530
+
+    Merge branch 'master' of https://github.com/Narottam04/SignLanguage
+
+[33mcommit a89a9bddb7ba39d8f0bf8bc6bb4b643fe08b00c3[m
+Author: Aman Shrivastava <amann.shrivastava@gmail.com>
+Date:   Fri Mar 31 21:14:20 2023 +0530
+
+    Adding alphabets for the game
+
+[33mcommit 3d5c7bc94437cdcbd0efaf313e1c8a6e9b1255b9[m
+Merge: 7065008 b918cc9
+Author: Narottam <coutkunal@gmail.com>
+Date:   Fri Mar 31 20:55:25 2023 +0530
+
+    Merge branch 'master' of https://github.com/Narottam04/SignLanguage
+
+[33mcommit b918cc907e3726695976d8e88e52f681538b3492[m
+Author: Aman Shrivastava <amann.shrivastava@gmail.com>
+Date:   Fri Mar 31 20:48:23 2023 +0530
+
+    Adding numbers for the game
+
+[33mcommit 70650081c781f50d78ee2827219b03d3ae6ac9e9[m
+Merge: b8d4102 43ecab4
+Author: Narottam <coutkunal@gmail.com>
+Date:   Fri Mar 31 19:20:32 2023 +0530
+
+    Merge branch 'master' of https://github.com/Narottam04/SignLanguage
+
+[33mcommit 43ecab49b8b05d933c150cc382cf2829c948235f[m
+Author: PRATHAMESH RAUT <prathamesh270802@gmail.com>
+Date:   Fri Mar 31 14:51:44 2023 +0530
+
+    added game background
+
+[33mcommit c3b2cd1c8be86beacf0800b19c58faf2da8047ce[m
+Author: PRATHAMESH RAUT <prathamesh270802@gmail.com>
+Date:   Fri Mar 31 14:11:21 2023 +0530
+
+    game is working
+
+[33mcommit 3764eb0a44172496b5fc8bd44f5de66a5a0f8561[m
+Author: PRATHAMESH RAUT <prathamesh270802@gmail.com>
+Date:   Fri Mar 31 12:54:31 2023 +0530
+
+    added camera to ballon Poppin game
+
+[33mcommit b8d41026631921de08d1eb7aab5dccfb38cbbcd2[m
+Merge: d25733f ba97169
+Author: Narottam <coutkunal@gmail.com>
+Date:   Tue Mar 28 20:39:42 2023 +0530
+
+    Merge branch 'master' of https://github.com/Narottam04/SignLanguage
+
+[33mcommit d25733f6d7a95c4bbdcf3d0f871456ea333b79c6[m
+Author: Narottam <coutkunal@gmail.com>
+Date:   Tue Mar 28 20:36:28 2023 +0530
+
+    some changes
+
+[33mcommit ba971697496760c322dd84d6542daafb4323201a[m
+Author: PRATHAMESH RAUT <prathamesh270802@gmail.com>
+Date:   Tue Mar 28 15:54:22 2023 +0530
+
+    made inital balloon poppin game
+
+[33mcommit 876eef4db56b10135e8d3c66e421d64e9d2cf2f0[m
+Author: Narottam <coutkunal@gmail.com>
+Date:   Sat Mar 25 14:10:01 2023 +0530
+
+    added analytics and logo for app
+
+[33mcommit cbc77967b26909eca34af356742286cb544d0b80[m
+Author: Narottam <coutkunal@gmail.com>
+Date:   Sat Mar 25 13:55:52 2023 +0530
+
+    added hand signs in play numbers 1-10
+
+[33mcommit 52ae5d9e105d09a9635180c4466f7684a52d5065[m
+Author: Aman Shrivastava <amann.shrivastava@gmail.com>
+Date:   Sat Mar 25 13:49:35 2023 +0530
+
+    “”
+
+[33mcommit 593e5aa2bfdfd9f8fbca8bba0c66b3a15a0f481b[m
+Author: Narottam <coutkunal@gmail.com>
+Date:   Sat Mar 25 13:35:46 2023 +0530
+
+    Added SEO tags
+
+[33mcommit 7896317b1bef565090dad9c9baccb226ebe36f2c[m
+Author: PRATHAMESH RAUT <prathamesh270802@gmail.com>
+Date:   Sat Mar 25 13:26:29 2023 +0530
+
+    added numbers hand sign images
+
+[33mcommit f965d200509faebf81e8d66f4021e2135a14b646[m
+Author: Narottam <coutkunal@gmail.com>
+Date:   Sat Mar 25 12:51:24 2023 +0530
+
+    model shows validation for signs shown before moving to next signs
+
+[33mcommit f85743ea4b1adffd51a1b608f96358dc7f63c65d[m
+Author: PRATHAMESH RAUT <prathamesh270802@gmail.com>
+Date:   Fri Mar 24 14:36:11 2023 +0530
+
+    added quizGame
+
+[33mcommit a90f86d0eaa65fff69b5702c611e2deea38147d1[m
+Author: Narottam <coutkunal@gmail.com>
+Date:   Thu Mar 23 20:56:56 2023 +0530
+
+    added kawaiii loader
+
+[33mcommit 54ae7bc9f640734d129ab5f3e861d5cb89d8fb7b[m
+Author: Narottam <coutkunal@gmail.com>
+Date:   Wed Mar 22 16:42:21 2023 +0530
+
+    added
